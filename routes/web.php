@@ -18,4 +18,7 @@ Route::get('{item}/edit', 'ItemController@edit')->name('edit')->middleware('auth
 Route::put('{item}', 'ItemController@update')->name('update')->middleware('auth');
 Route::delete('{item}', 'ItemController@destroy')->name('destroy')->middleware('auth');
 
+Route::get('cv/create', 'CVController@create')->name('create.cv');
+Route::post('cv', 'CVController@store')->name('store.cv');
+
 Auth::routes(['register' => false, 'reset' => false, 'verify' => false]);

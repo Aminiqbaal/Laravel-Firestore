@@ -4,6 +4,10 @@
     <div class="navbar-nav">
         <a href="#" class="nav-link sidebar-gone-show" data-toggle="sidebar"></a>
     </div>
+    <ul class="navbar-nav">
+        <li class="nav-item"><a href="{{ route('index') }}" class="nav-link">Barang</a></li>
+        <li class="nav-item"><a href="{{ route('create.cv') }}" class="nav-link">CV</a></li>
+      </ul>
     <ul class="navbar-nav navbar-right ml-auto">
         @if(Auth::check())
         <li class="dropdown"><a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg nav-link-user">

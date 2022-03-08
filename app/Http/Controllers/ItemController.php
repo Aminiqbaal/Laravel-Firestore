@@ -17,7 +17,7 @@ class ItemController extends Controller
     public function index()
     {
         $items = Item::all();
-        return view('index', compact('items'));
+        return view('item.index', compact('items'));
     }
 
     /**
@@ -27,7 +27,7 @@ class ItemController extends Controller
      */
     public function create()
     {
-        return view('create');
+        return view('item.create');
     }
 
     /**
@@ -78,7 +78,7 @@ class ItemController extends Controller
      */
     public function edit(Item $item)
     {
-        return view('edit', compact('item'));
+        return view('item.edit', compact('item'));
     }
 
     /**

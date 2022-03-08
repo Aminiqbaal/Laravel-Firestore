@@ -1,0 +1,75 @@
+body {
+    letter-spacing: 1px;
+}
+
+.general, .detail, .right-side {
+    padding: 50px;
+}
+
+.general {
+    padding-bottom: 10px;
+    background-color: #FF9D8E;
+}
+
+.photo {
+    height: 450px;
+    text-align: center;
+}
+
+img {
+    max-height:100%;
+}
+
+.name {
+    font-size: 46px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+
+.specialist {
+    font-size: 32px;
+    line-height: 50px;
+}
+
+.detail {
+    padding-top: 10px;
+    background-color: #373741;
+    color: white;
+}
+
+p, .contact, ul {
+    font-size: 22px;
+}
+
+.contact th, .contact td {
+    padding: 5px;
+}
+
+ul {
+    list-style-position: inside;
+    padding-left: 0px;
+}
+
+
+
+
+.section-title {
+    font-size: 26px;
+    font-weight: bold;
+    border-bottom: 7px solid #FF9D8E;
+    padding: 10px 0px;
+}
+
+.list {
+    font-size: 18px;
+}
+
+.list th {
+    padding-top: 10px;
+    vertical-align: top;
+}
+
+.year {
+    padding: 0px 10px;
+}
